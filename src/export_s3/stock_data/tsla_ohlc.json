@@ -1,0 +1,49 @@
+{
+    "data_source": "yahoo_finance",
+    "dataset_type": "Daily stock price",
+    "dataset_id": "tsla",
+    "time_object": {
+        "timestamp": "2023-03-06 20:27:47.576001",
+        "timezone": "AEDT"
+    },
+    "events": [
+        {
+            "time_object": {
+                "timestamp": "2023-03-03",
+                "timezone": "AEDT",
+                "duration": 1,
+                "duration_unit": "day"
+            },
+            "event_type": "stock ohlc",
+            "attributes": {
+                "open": 194.8000030518,
+                "high": 200.4799957275,
+                "low": 192.8800048828,
+                "close": 197.7899932861,
+                "adjclose": 197.7899932861,
+                "volume": 153800400,
+                "ticker": "TSLA",
+                "date": "2023-03-03"
+            }
+        },
+        {
+            "time_object": {
+                "timestamp": "2023-03-02",
+                "timezone": "AEDT",
+                "duration": 1,
+                "duration_unit": "day"
+            },
+            "event_type": "stock ohlc",
+            "attributes": {
+                "open": 186.7400054932,
+                "high": 193.75,
+                "low": 186.0099945068,
+                "close": 190.8999938965,
+                "adjclose": 190.8999938965,
+                "volume": 181500700,
+                "ticker": "TSLA",
+                "date": "2023-03-02"
+            }
+        }
+    ]
+}

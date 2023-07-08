@@ -1,0 +1,13 @@
+lib/
+build/
+bin/
+.DS_Store
+.classpath
+.project
+.pytest_cache
+.coverage
+__pycache__/
+junit
+.coverage
+cov.xml
+snapshots

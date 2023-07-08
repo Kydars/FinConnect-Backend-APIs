@@ -1,0 +1,5 @@
+[flake8]
+exclude = 
+    tests/snapshots*
+    sierra_tests/*
+    code/yahoo_fin_layer*
